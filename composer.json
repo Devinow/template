@@ -1,0 +1,39 @@
+{
+	"name": "devinow/template",
+	"description": "Devinow Framework Template Engine Library,Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": ["laravel", "blade"],
+	"require": {
+	  "php": ">=8.1.0",
+      "illuminate/view": "*",
+      "illuminate/events": "*"
+	},
+	"authors": [
+	  {
+		"name": "Devinow",
+		"email": "info@devinow.xyz",
+		"homepage": "https://devinow.xyz",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/devinow/template"
+	  }
+	],
+	"support": {
+		  "email": "info@devinow.xyz"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Devinow\\Blade\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+  }
