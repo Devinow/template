@@ -10,7 +10,7 @@ composer require devinow/template
 
 require __DIR__.'/vendor/autoload.php';
 
-use TAG\Blade\Blade;
+use Devinow\Blade\Blade;
 
 $views = __DIR__ . '/views';
 $cache = __DIR__ . '/cache';
