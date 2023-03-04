@@ -1,9 +1,9 @@
-### Installation
+## Installation
 
 ```
 composer require devinow/template
 ```
-### Usage
+## Usage
 
 ```php
 <?php
